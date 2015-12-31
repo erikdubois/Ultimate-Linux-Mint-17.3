@@ -5,3 +5,5 @@
 git config --global user.name xxxx
 git config --global user.email xxxx
 sudo git config --system core.editor nano
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'

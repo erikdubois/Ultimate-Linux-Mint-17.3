@@ -8,8 +8,8 @@
 
 This is my way of working when installing a new operating system.
 
-	1 Updates, drivers and kernels
-	2 Software and patches
+	1 Kernel, cinnamon and nvidia
+	2 Software installation
 	3 Change settings to my liking
 	4 Fun stuff
 
@@ -36,7 +36,7 @@ Then you can execute it by typing
 
 
 
-#1 Kernel, Nvidia and Cinnamon
+#1 Kernel, cinnamon and nvidia
 
 As described at http://erikdubois.be/ I try to get the latest of everything. This attitude tends to break things. You have been warned. But the best way to learn about linux.
 
@@ -71,10 +71,11 @@ Type in the terminal
 
 
 The very latest cinnamon version will be installed on your system by adding the following repository.
+This code can be uncommented.
 
-	sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
-	sudo apt-get update 
-	sudo apt-get install cinnamon -y
+	# sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
+	# sudo apt-get update 
+	# sudo apt-get install cinnamon -y
 
 	or run
 
@@ -101,6 +102,9 @@ We start the installation script of all the needed software in the same way as a
 Do not forget to type "./" in front of the name.
 
 
+Samba or sharing folder over the network
+------------------------------------------
+
 And a specific script for samba (sharing of maps on your home network) if you need it. This script is NOT necessary. Linux Mint shares folders just fine. If you need a program to have an oversight of all the shared maps. This is the one. 
 
 	sudo apt-get install system-config-samba
@@ -109,7 +113,6 @@ And a specific script for samba (sharing of maps on your home network) if you ne
 
 	- ./install-samba-vx.sh
 
-#3 Changing settings
 
 
 ZSH and Oh-my-sh
@@ -133,10 +136,47 @@ Latest script will take care of that automatically.
 Sardi Icon Theme
 -------------------
 
-This icon theme can be downloaded here.
+This icon theme can be downloaded at  sourceforge.
 
 http://sourceforge.net/projects/sardi/
 
+Some Examples!
+
+
+![Screenshots](http://i.imgur.com/FOm8gfH.png)
+
+
+![Screenshots](http://i.imgur.com/RwszxLG.png)
+
+
+![Screenshots](http://i.imgur.com/k0RXBnB.png)
+
+
+![Screenshots](http://i.imgur.com/l0Ecx5O.png)  
+
+
+![Screenshots](http://i.imgur.com/pv7bBsW.png)  
+
+
+![Screenshots](http://i.imgur.com/pNDgmJ7.png)  
+
+
+![Screenshots](http://i.imgur.com/g6mccId.png)  
+
+
+![Screenshots](http://i.imgur.com/jtToMq7.png)  
+
+
+![Screenshots](http://i.imgur.com/s5GY5gG.png)  
+
+
+![Screenshots](http://i.imgur.com/KlTeQK7.png)  
+
+
+![Screenshots](http://i.imgur.com/lrQ27Xs.jpg)
+
+
+	
 
 
 
@@ -166,8 +206,6 @@ If you miss the microsoft fonts ... Verdana, Courrier, Comic, Arial, ...
 sudo apt-get install ttf-mscorefonts-installer -y
 
 
-
-# Fun stuff
 
 Themes and Icons
 -----------------

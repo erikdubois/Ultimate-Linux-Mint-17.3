@@ -1,4 +1,4 @@
-# Ultimate Linux Mint 17.3 Cinnamon
+# Ultimate Linux Mint 17.3 Cinnamon and other flavours
 
 
 ![Screenshots](http://i.imgur.com/tl1N9yf.jpg)
@@ -38,11 +38,11 @@ Then you can execute it by typing
 
 #1 Kernel, Nvidia and Cinnamon
 
-As described at http://erikdubois.be/linux/the-ultimate-linux-mint-update I try to get the latest of everything. This attitude tends to break things. You have been warned. But the best way to learn about linux.
+As described at http://erikdubois.be/ I try to get the latest of everything. This attitude tends to break things. You have been warned. But the best way to learn about linux.
 
 The first time I suggest you follow the steps in the article.
 
-I have written a script to automate my installation. 
+I have written a script to automate my installations. 
 
 You have a choice. 
 
@@ -51,13 +51,10 @@ You have a choice.
 
 If you want to install a kernel 3.x or a kernel 4.x, I have to take a different approach for my hardware. Therefor I have split it up in two files.
 
-	- ./kernel_3_X the_ultimate_Linux_Mint_update_vx.sh 
-	- ./kernel_4_X_the_ultimate_Linux_Mint_update_vx.sh 
+	- ./update-to-the-last-stable-3.19.8-kernel-vx.sh 
+	- ./update-to-the-last-stable-4.3-kernel-vx.sh 
 
 The only reason is that my hardware, the nvidia driver and kernel 4 are not compatible at the time of writing.
-You can read about that at 
-
-http://erikdubois.be/upgrade-kernel-linux-mint-17-1-linux-4-0-kernel/
 
 Do not forget to type "./" in front of the name.
 
@@ -66,11 +63,11 @@ Go inside the folder and right-click <b>in a blank space</b> to go to the termin
 
 Type in the terminal
 
-	- ./kernel_3_X the_ultimate_Linux_Mint_update_vx.sh 
+	- ./update-to-the-last-stable-3.19.8-kernel-vx.sh 
 	
 	or 
 	
-	- ./kernel_4_X_the_ultimate_Linux_Mint_update_vx.sh 
+	- ./update-to-the-last-stable-4.3-kernel-vx.sh 
 
 
 The very latest cinnamon version will be installed on your system by adding the following repository.
@@ -78,6 +75,11 @@ The very latest cinnamon version will be installed on your system by adding the 
 	sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
 	sudo apt-get update 
 	sudo apt-get install cinnamon -y
+
+	or run
+
+	- ./install-latest-cinnamon-installation-vx.sh
+
 
 Nvidia drivers will <b>NOT</b> be installed as they are very specific to your hardware. But checkout the code.
 This code can be uncommented.
@@ -94,8 +96,7 @@ Wait for the installation and reboot.
 
 We start the installation script of all the needed software in the same way as above. 
 
-	- ./script_to_install_Linux_mint_17_2_def_vxx.sh
-
+	- ./install-all-needed-software-at-once-vx.sh
 
 Do not forget to type "./" in front of the name.
 
@@ -104,6 +105,9 @@ And a specific script for samba (sharing of maps on your home network) if you ne
 
 	sudo apt-get install system-config-samba
 
+	or
+
+	- ./install-samba-vx.sh
 
 #3 Changing settings
 
@@ -112,7 +116,7 @@ ZSH and Oh-my-sh
 -----------------------
 I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script
 
-./install_zsh.sh
+./install-zsh-vx.sh
 
 Go and find that hidden file .zshrc (CTRL+H) and edit it
 
@@ -126,53 +130,14 @@ Latest script will take care of that automatically.
 
 
 
-Icons and themes 
--------------------
-
-All interesting themes and icons have been consolidated here : 
-
-https://github.com/erikdubois/themes-icons-pack
-
-
-
 Sardi Icon Theme
 -------------------
 
 This icon theme can be downloaded here.
 
-https://github.com/erikdubois/Sardi
+http://sourceforge.net/projects/sardi/
 
 
-
-Google Drive
-----------------
-I do not need to have the google drive on my computer but if you do
-
-sudo add-apt-repository ppa:thefanclub/grive-tools -y
-
-sudo apt-get update
-
-sudo apt-get install grive-tools -y
-
-
-
-Antivirus
-------------------
-There is no need to have an antivirus but if you want to scan your windows files
-
-
-sudo sh -c 'echo "deb http://download.bitdefender.com/repos/deb/ bitdefender non-free" >> /etc/apt/sources.list'
-
-wget http://download.bitdefender.com/repos/deb/bd.key.asc
-
-sudo apt-key add bd.key.asc
-
-sudo apt-get update
-
-sudo apt-get install bitdefender-scanner-gui
-
-
-More info at http://linuxaria.com/howto/bitdefender-a-good-antivirus-for-linux-system
 
 
 Folder nemo-scripts
@@ -202,7 +167,7 @@ sudo apt-get install ttf-mscorefonts-installer -y
 
 
 
-#4 Fun stuff
+# Fun stuff
 
 Themes and Icons
 -----------------
@@ -265,7 +230,41 @@ Then you take the script apart and you write your own code.
 
 This github script is explained more in depth on my website.
 
-http://erikdubois.be/the-ultimate-linux-mint-update/
+http://erikdubois.be/
+
+
+Antivirus
+------------------
+There is no need to have an antivirus but if you want to scan your windows files
+
+
+sudo sh -c 'echo "deb http://download.bitdefender.com/repos/deb/ bitdefender non-free" >> /etc/apt/sources.list'
+
+wget http://download.bitdefender.com/repos/deb/bd.key.asc
+
+sudo apt-key add bd.key.asc
+
+sudo apt-get update
+
+sudo apt-get install bitdefender-scanner-gui
+
+
+More info at http://linuxaria.com/howto/bitdefender-a-good-antivirus-for-linux-system
+
+
+
+
+Google Drive
+----------------
+I do not need to have the google drive on my computer but if you do
+
+sudo add-apt-repository ppa:thefanclub/grive-tools -y
+
+sudo apt-get update
+
+sudo apt-get install grive-tools -y
+
+
 
 ------------------------------------
 #But that is the fun in Linux.

@@ -296,11 +296,8 @@ Google Drive
 ----------------
 I do not need to have the google drive on my computer but if you do
 
-sudo add-apt-repository ppa:thefanclub/grive-tools -y
-
-sudo apt-get update
-
-sudo apt-get install grive-tools -y
+Grivetools is no more
+overgrive is there - but paid 
 
 
 

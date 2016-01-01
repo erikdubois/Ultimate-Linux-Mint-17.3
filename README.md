@@ -1,10 +1,28 @@
 # Ultimate Linux Mint 17.3 Cinnamon and other flavours
 
 
-![Screenshots](http://i.imgur.com/tl1N9yf.jpg)
+![Screenshots](http://i.imgur.com/SXOd0OV.jpg)
 
 
-![Screenshots](http://i.imgur.com/DMCuX2Z.jpg)
+![Screenshots](http://i.imgur.com/ioLbDhH.jpg)
+
+
+![Screenshots](http://i.imgur.com/p62pbGX.jpg)
+
+
+![Screenshots](http://i.imgur.com/xLqAoVN.jpg)
+
+
+![Screenshots](http://i.imgur.com/v71AdeK.jpg)
+
+
+![Screenshots](http://i.imgur.com/2rGABXZ.jpg)
+
+
+![Screenshots](http://i.imgur.com/MhfJMk6.jpg)
+
+
+
 
 This is my way of working when installing a new operating system.
 

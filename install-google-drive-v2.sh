@@ -50,34 +50,36 @@
 #
 ############################################################################
 
-echo Let us check if your computer is up-to-date
+echo "Let us check if your computer is up-to-date"
 echo
 echo 
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get autoclean -y
-sudo apt-get autoremove -y
+#sudo apt-get -y update
+#sudo apt-get -f -y install
+#sudo apt-get -y upgrade
+#sudo apt-get -y autoremove
+#sudo apt-get -y autoclean
 
 
 ############################################################################
 
 # repo for google drive
-sudo add-apt-repository ppa:thefanclub/grive-tools -y
+# https://www.thefanclub.co.za/overgrive
+
 
 
 # getting new info of this new repo
-sudo apt-get -y update
+#sudo apt-get -y update
 
-# installing
-sudo apt-get install -y grive-tools
-
+# installing - no longer functional
+# sudo apt-get install -y grive-tools
+# overgrive is but is paid !!
 
 ############################################################################
 
 #ending
 
-sudo apt-get -y update
-sudo apt-get -f -y install
-sudo apt-get -y upgrade
-sudo apt-get -y autoremove
-sudo apt-get -y autoclean
+#sudo apt-get -y update
+#sudo apt-get -f -y install
+#sudo apt-get -y upgrade
+#sudo apt-get -y autoremove
+#sudo apt-get -y autoclean

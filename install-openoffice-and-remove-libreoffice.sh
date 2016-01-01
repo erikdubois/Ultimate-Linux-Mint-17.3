@@ -56,11 +56,10 @@ sudo apt-get autoremove
 
 
 # Downloading 
-wget http://sourceforge.net/projects/openofficeorg.mirror/files/4.1.1/binaries/en-US/Apache_OpenOffice_4.1.1_Linux_x86-64_install-deb_en-US.tar.gz
-
+wget http://sourceforge.net/projects/openofficeorg.mirror/files/4.1.2/binaries/en-GB/Apache_OpenOffice_4.1.2_Linux_x86-64_install-deb_en-GB.tar.gz
 # Untar
 tar -xvf Apache*
-cd en-US
+cd en-GB
 cd DEBS
 sudo dpkg -i *.deb
 cd desktop-integration

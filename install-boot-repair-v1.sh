@@ -62,7 +62,7 @@ sudo apt-get autoremove -y
 ############################################################################
 
 # repo for boot-repair
-sudo add-apt-repository ppa:yannubuntu/boot-repair
+sudo add-apt-repository -y ppa:yannubuntu/boot-repair
 
 
 # getting new info of this new repo

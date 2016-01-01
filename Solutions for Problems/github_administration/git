@@ -2,8 +2,8 @@
 #https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
 #git init
-git config --global user.name xxxx
-git config --global user.email xxxx
+git config --global user.name x
+git config --global user.email x
 sudo git config --system core.editor nano
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'

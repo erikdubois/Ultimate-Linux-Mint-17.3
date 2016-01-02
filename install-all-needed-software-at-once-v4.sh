@@ -111,7 +111,7 @@ rm google-chrome-stable_current_amd64.deb
 ############################################################################
 
 #software from 'normal' repositories
-sudo apt-get install -y catfish clementine focuswriter frei0r-plugins geary gimp gpick glances gparted
+sudo apt-get install -y catfish clementine curl focuswriter frei0r-plugins geary gimp git gpick glances gparted
 sudo apt-get install -y hardinfo inkscape inxi kazam openshot p7zip-full ppa-purge screenruler scrot shutter slurm
 sudo apt-get install -y sublime-text terminator thunar variety vnstat winbind   
 

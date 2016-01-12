@@ -96,13 +96,21 @@ Do not forget to type "./" in front of the name.
 The best of them 
 
 Spotify
+
 Sublime Text
+
 Variety
+
 Inkscape
+
 Plank
+
 Screenfetch
+
 Numix Icons
+
 Google Chrome
+
 ...
 
 

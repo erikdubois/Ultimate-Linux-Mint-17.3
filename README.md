@@ -276,7 +276,7 @@ https://github.com/erikdubois/themes-icons-pack
 
 ![Screenshots](http://erikdubois.be/wp-content/uploads/2015/02/pimp_linux_mint.jpg)
 
-
+![Screenshots](http://i.imgur.com/9drRjAL.jpg)
 
 Mscore fonts
 ---------------

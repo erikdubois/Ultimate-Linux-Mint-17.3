@@ -93,6 +93,20 @@ We start the installation script of all the needed software in the same way as a
 
 Do not forget to type "./" in front of the name.
 
+The best of them 
+
+Spotify
+Sublime Text
+Variety
+Inkscape
+Plank
+Screenfetch
+Numix Icons
+Google Chrome
+...
+
+
+
 [![Ultimate Linux Mint Update](http://i.imgur.com/qmOOZ8G.jpg)](https://www.youtube.com/watch?v=5xHy96K14Dk "Ultimate Linux Mint Update - Click to Watch!")
 
 

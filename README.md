@@ -306,6 +306,10 @@ You should arrive at something similar depending on theme and icons choices:
 
 
 
+![Screenshots](http://i.imgur.com/B5cPnMK.jpg)
+
+
+
 Then you take the script apart and you write your own code.
 
 This github script is explained more in depth on my website.

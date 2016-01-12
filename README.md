@@ -252,6 +252,7 @@ and change to your liking. These are quick fixes and one backup script to a Back
 But if you are using the <b>latest nemo</b> you have to place them in your home folder in 
 ~/local/share/nemo/scripts. Nemo has an extra menu "Plugins".
 
+Or just follow the youtube movie to get more details about 3 scripts I have kept over the years.
 
 ![Screenshots](http://i.imgur.com/ody9WJO.jpg)
 

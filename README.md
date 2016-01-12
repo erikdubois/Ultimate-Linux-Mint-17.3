@@ -229,7 +229,7 @@ Each time you start an other terminal you will get a different theme. It will su
 
 Plank
 ------------------
-Start plank from the menu. Right-click the plank and choose preferences and put in on top. I choose as theme transparent.
+Start plank from the menu. Right-click the plank and choose preferences and put in on top. I choose a transparent theme.
 But there are more themes out there if you want.
 If you want to autostart this everytime.
 Type in the menu " startup". Start startup applications.

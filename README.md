@@ -224,6 +224,7 @@ Type in the menu " startup". Start startup applications.
 Add application and choose plank or do it the old way and point to /usr/bin/plank.
 
 A tutorial has been written here : 
+
 http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-autostart/
 
 

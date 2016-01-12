@@ -30,28 +30,6 @@ First upgrade kernel, nvidia and cinnamon/nemo.
 If everything is still working we can install the software and start customizing the system.
 
 
-#What can you do if the script does not execute?
-
-Since I sometimes forget to make the script executable, I include here what you can do to solve that.
-
-A script can only run when it is marked as an executable.
-
-	ls -al 
-
-Above code will reveal if a script has an "x". X meaning executable.
-Google "chmod" and "execute" and you will find more info.
-
-For now if this happens, you should apply this code in the terminal and add the file name.
-
-	chmod +x typeyourfilename
-
-Then you can execute it by typing
-
-	./typeyourfilename
-
-
-
-
 #1 Kernel, cinnamon and nvidia
 
 As described at http://erikdubois.be/ I try to get the latest of everything. This attitude tends to break things. You have been warned. But the best way to learn about linux.
@@ -316,6 +294,25 @@ This github script is explained more in depth on my website.
 
 http://erikdubois.be/
 
+
+#What can you do if the script does not execute?
+
+Since I sometimes forget to make the script executable, I include here what you can do to solve that.
+
+A script can only run when it is marked as an executable.
+
+	ls -al 
+
+Above code will reveal if a script has an "x". X meaning executable.
+Google "chmod" and "execute" and you will find more info.
+
+For now if this happens, you should apply this code in the terminal and add the file name.
+
+	chmod +x typeyourfilename
+
+Then you can execute it by typing
+
+	./typeyourfilename
 
 ------------------------------------
 #But that is the fun in Linux.

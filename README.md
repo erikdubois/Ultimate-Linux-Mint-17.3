@@ -64,7 +64,7 @@ Type in the terminal
 	- ./update-to-the-last-stable-4.3-kernel-vx.sh 
 
 
-The very latest cinnamon version will be installed on your system by adding the following repository.
+The very latest cinnamon version will be <b>NOT</b> be installed on your system by adding the following repository.
 This code can be uncommented.
 
 	# sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly

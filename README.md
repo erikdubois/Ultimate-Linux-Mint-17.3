@@ -141,13 +141,7 @@ I like bash but I prefer zsh with lots of different theme to spice things up. So
 
 ./install-zsh-vx.sh
 
-Go and find that hidden file .zshrc (CTRL+H) and edit it
-
-Change
-
-into
-
-ZSH_THEME="random"
+Normally you need to go and find that hidden file .zshrc (CTRL+H) and edit it. You should change it into ZSH_THEME="random".
 
 <b>Latest script will take care of that automatically.</b>
 

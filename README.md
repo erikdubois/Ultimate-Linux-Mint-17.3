@@ -231,6 +231,7 @@ http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-au
 Mscore fonts
 ---------------
 If you miss the microsoft fonts ... Verdana, Courrier, Comic, Arial, ...
+Use TAB and ENTER to install it.
 
 sudo apt-get install ttf-mscorefonts-installer -y
 
@@ -253,7 +254,9 @@ Matrix (screen with green letters as seen in the movie)
 
 sudo apt-get install cmatrix
 
-Try cmatrix -b
+Try 
+
+	cmatrix -b
 
 
 

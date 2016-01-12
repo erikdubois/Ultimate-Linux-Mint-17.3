@@ -48,8 +48,6 @@ If you want to install a kernel 3.x or a kernel 4.x, I have to take a different 
 	- ./update-to-the-last-stable-3.19.8-kernel-vx.sh 
 	- ./update-to-the-last-stable-4.3-kernel-vx.sh 
 
-The only reason is that my hardware, the nvidia driver and kernel 4 are not compatible at the time of writing.
-
 Do not forget to type "./" in front of the name.
 
 You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to Extract here.

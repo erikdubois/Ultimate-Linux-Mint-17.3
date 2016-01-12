@@ -159,6 +159,7 @@ This icon theme can be downloaded at  sourceforge.
 http://sourceforge.net/projects/sardi/
 
 Some Examples!
+More documentation on http://erikdubois.be
 
 
 ![Screenshots](http://i.imgur.com/FOm8gfH.png)

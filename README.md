@@ -119,6 +119,8 @@ We start the installation script of all the needed software in the same way as a
 
 Do not forget to type "./" in front of the name.
 
+[![Ultimate Linux Mint Update](http://i.imgur.com/qmOOZ8G.jpg)](https://www.youtube.com/watch?v=5xHy96K14Dk "Ultimate Linux Mint Update - Click to Watch!")
+
 
 Samba or sharing folder over the network
 ------------------------------------------

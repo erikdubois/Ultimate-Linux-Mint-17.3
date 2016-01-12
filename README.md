@@ -147,7 +147,11 @@ into
 
 ZSH_THEME="random"
 
-Latest script will take care of that automatically.
+<b>Latest script will take care of that automatically.</b>
+
+[![Install zsh](http://i.imgur.com/vcTLjCT.jpg)](https://www.youtube.com/watch?v=5UOkIRhq7h8 "Install zsh - Click to Watch!")
+
+[![Showing zsh](http://i.imgur.com/gzK6c7j.jpg)](https://www.youtube.com/watch?v=T2Y_dp1STos "Showing zsh - Click to Watch!")
 
 
 

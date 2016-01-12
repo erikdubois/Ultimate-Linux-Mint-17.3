@@ -267,6 +267,7 @@ Try
 
 ![Screenshots](http://i.imgur.com/oKGiyzP.jpg)
 
+
 Aurora Conky
 ---------------
 	
@@ -306,36 +307,6 @@ Then you take the script apart and you write your own code.
 This github script is explained more in depth on my website.
 
 http://erikdubois.be/
-
-
-Antivirus
-------------------
-There is no need to have an antivirus but if you want to scan your windows files
-
-
-sudo sh -c 'echo "deb http://download.bitdefender.com/repos/deb/ bitdefender non-free" >> /etc/apt/sources.list'
-
-wget http://download.bitdefender.com/repos/deb/bd.key.asc
-
-sudo apt-key add bd.key.asc
-
-sudo apt-get update
-
-sudo apt-get install bitdefender-scanner-gui
-
-
-More info at http://linuxaria.com/howto/bitdefender-a-good-antivirus-for-linux-system
-
-
-
-
-Google Drive
-----------------
-I do not need to have the google drive on my computer but if you do
-
-Grivetools is no more
-overgrive is there - but paid 
-https://www.thefanclub.co.za/overgrive
 
 
 ------------------------------------

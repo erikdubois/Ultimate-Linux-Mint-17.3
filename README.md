@@ -209,6 +209,12 @@ But if you are using the <b>latest nemo</b> you have to place them in your home 
 ~/local/share/nemo/scripts. Nemo has an extra menu "Plugins".
 
 
+![Screenshots](http://i.imgur.com/ody9WJO.jpg)
+
+
+[![How to add scripts to nemo](http://i.imgur.com/8lFcYuP.jpg)](https://www.youtube.com/watch?v=JCxxs7IzUbs "How to add scripts to nemo - Click to Watch!")
+
+
 
 Plank
 ------------------

@@ -98,34 +98,6 @@ Do not forget to type "./" in front of the name.
 
 #3 Extra's
 
-Samba or sharing folder over the network
-------------------------------------------
-
-And a specific script for samba (sharing of maps on your home network) if you need it. This script is NOT necessary. Linux Mint shares folders just fine. If you need a program to have an oversight of all the shared maps. This is the one. 
-
-	sudo apt-get install system-config-samba
-
-	or
-
-	- ./install-samba-vx.sh
-
-
-
-ZSH and Oh-my-sh
------------------------
-I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script
-
-./install-zsh-vx.sh
-
-Normally you need to go and find that hidden file .zshrc (CTRL+H) and edit it. You should change it into ZSH_THEME="random".
-
-<b>Latest script will take care of that automatically.</b>
-
-[![Install zsh](http://i.imgur.com/vcTLjCT.jpg)](https://www.youtube.com/watch?v=5UOkIRhq7h8 "Install zsh - Click to Watch!")
-
-[![Showing zsh](http://i.imgur.com/gzK6c7j.jpg)](https://www.youtube.com/watch?v=T2Y_dp1STos "Showing zsh - Click to Watch!")
-
-
 
 Sardi Icon Theme
 -------------------
@@ -171,77 +143,6 @@ More documentation on http://erikdubois.be
 ![Screenshots](http://i.imgur.com/lrQ27Xs.jpg)
 
 
-	
-
-
-
-Folder nemo-scripts
-------------------
-Move the content of the folder nemo-scripts to the hidden folder ~/.gnome2/nemo-scripts/
-and change to your liking. These are quick fixes and one backup script to a Backup folder.
-
-But if you are using the <b>latest nemo</b> you have to place them in your home folder in 
-~/local/share/nemo/scripts. Nemo has an extra menu "Plugins".
-
-
-![Screenshots](http://i.imgur.com/ody9WJO.jpg)
-
-
-[![How to add scripts to nemo](http://i.imgur.com/8lFcYuP.jpg)](https://www.youtube.com/watch?v=JCxxs7IzUbs "How to add scripts to nemo - Click to Watch!")
-
-
-
-Plank
-------------------
-Start plank from the menu. Right-click the plank and choose preferences and put in on top. I choose as theme transparent.
-But there are more themes out there if you want.
-If you want to autostart this everytime.
-Type in the menu " startup". Start startup applications.
-Add application and choose plank or do it the old way and point to /usr/bin/plank.
-
-![Screenshots](http://i.imgur.com/arie1IY.jpg)
-
-A tutorial has been written here : 
-
-http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-autostart/
-
-
-Mscore fonts
----------------
-If you miss the microsoft fonts ... Verdana, Courrier, Comic, Arial, ...
-Use TAB and ENTER to install it.
-
-sudo apt-get install ttf-mscorefonts-installer -y
-
-
-
-Themes and Icons
------------------
-
-The most fun goes in changing the look of your system. 
-
-I have gathered a lot of themes, icons and cursors I like and bundled them here.
-
-https://github.com/erikdubois/themes-icons-pack
-
-![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/final_linuxmint171.png)
-
-
-![Screenshots](http://erikdubois.be/wp-content/uploads/2015/02/pimp_linux_mint.jpg)
-
-
-The matrix
------------
-
-Matrix (screen with green letters as seen in the movie)
-
-sudo apt-get install cmatrix
-
-Try 
-
-	cmatrix -b
-
-![Screenshots](http://i.imgur.com/oKGiyzP.jpg)
 
 
 Aurora Conky
@@ -291,6 +192,114 @@ Then you take the script apart and you write your own code.
 This github script is explained more in depth on my website.
 
 http://erikdubois.be/
+
+
+	
+
+ZSH and Oh-my-sh
+-----------------------
+I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script
+
+./install-zsh-vx.sh
+
+Normally you need to go and find that hidden file .zshrc (CTRL+H) and edit it. You should change it into ZSH_THEME="random".
+
+<b>Latest script will take care of that automatically.</b>
+
+[![Install zsh](http://i.imgur.com/vcTLjCT.jpg)](https://www.youtube.com/watch?v=5UOkIRhq7h8 "Install zsh - Click to Watch!")
+
+[![Showing zsh](http://i.imgur.com/gzK6c7j.jpg)](https://www.youtube.com/watch?v=T2Y_dp1STos "Showing zsh - Click to Watch!")
+
+
+Plank
+------------------
+Start plank from the menu. Right-click the plank and choose preferences and put in on top. I choose as theme transparent.
+But there are more themes out there if you want.
+If you want to autostart this everytime.
+Type in the menu " startup". Start startup applications.
+Add application and choose plank or do it the old way and point to /usr/bin/plank.
+
+![Screenshots](http://i.imgur.com/arie1IY.jpg)
+
+A tutorial has been written here : 
+
+http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-autostart/
+
+
+
+
+Folder nemo-scripts
+------------------
+Move the content of the folder nemo-scripts to the hidden folder ~/.gnome2/nemo-scripts/
+and change to your liking. These are quick fixes and one backup script to a Backup folder.
+
+But if you are using the <b>latest nemo</b> you have to place them in your home folder in 
+~/local/share/nemo/scripts. Nemo has an extra menu "Plugins".
+
+
+![Screenshots](http://i.imgur.com/ody9WJO.jpg)
+
+
+[![How to add scripts to nemo](http://i.imgur.com/8lFcYuP.jpg)](https://www.youtube.com/watch?v=JCxxs7IzUbs "How to add scripts to nemo - Click to Watch!")
+
+
+
+
+Themes and Icons
+-----------------
+
+The most fun goes in changing the look of your system. 
+
+I have gathered a lot of themes, icons and cursors I like and bundled them here.
+
+https://github.com/erikdubois/themes-icons-pack
+
+![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/final_linuxmint171.png)
+
+
+![Screenshots](http://erikdubois.be/wp-content/uploads/2015/02/pimp_linux_mint.jpg)
+
+
+
+Mscore fonts
+---------------
+If you miss the microsoft fonts ... Verdana, Courrier, Comic, Arial, ...
+Use TAB and ENTER to install it.
+
+sudo apt-get install ttf-mscorefonts-installer -y
+
+
+
+
+
+The matrix
+-----------
+
+Matrix (screen with green letters as seen in the movie)
+
+sudo apt-get install cmatrix
+
+Try 
+
+	cmatrix -b
+
+![Screenshots](http://i.imgur.com/oKGiyzP.jpg)
+
+
+
+
+Samba or sharing folder over the network
+------------------------------------------
+
+And a specific script for samba (sharing of maps on your home network) if you need it. This script is NOT necessary. Linux Mint shares folders just fine. If you need a program to have an oversight of all the shared maps. This is the one. 
+
+	sudo apt-get install system-config-samba
+
+	or
+
+	- ./install-samba-vx.sh
+
+
 
 
 #What can you do if the script does not execute?

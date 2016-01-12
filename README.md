@@ -294,6 +294,8 @@ You should arrive at something similar depending on theme and icons choices:
 
 ![Screenshots](http://erikdubois.be/wp-content/uploads/2015/02/pimp_linux_mint.jpg)
 
+![Screenshots](http://i.imgur.com/YAyQOjw.jpg)
+
 
 
 Then you take the script apart and you write your own code.

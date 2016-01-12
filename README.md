@@ -222,6 +222,8 @@ Normally you need to go and find that hidden file .zshrc (CTRL+H) and edit it. Y
 
 [![Install zsh](http://i.imgur.com/vcTLjCT.jpg)](https://www.youtube.com/watch?v=5UOkIRhq7h8 "Install zsh - Click to Watch!")
 
+Each time you start an other terminal you will get a different theme. It will surprise every time.
+
 [![Showing zsh](http://i.imgur.com/gzK6c7j.jpg)](https://www.youtube.com/watch?v=T2Y_dp1STos "Showing zsh - Click to Watch!")
 
 

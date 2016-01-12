@@ -275,7 +275,7 @@ http://erikdubois.be/category/linux/aurora-conky/
 In this downloadfolder you will find an installationscript as well i.e. Auto_LinuxMint_Rebecca_cinnamon_aurora.sh
 
 
-But basically unpack the zip file. Change the name of the unpacked folder to "Aurora" and make the hidden folder .conky and place it in in there.
+But basically unpack the zip file. Make the hidden folder .conky (if it does not exist yet) and place the folder aurora in there.
 
 Install conky-manager that will make life easy.
 

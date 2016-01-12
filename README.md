@@ -1,4 +1,4 @@
-# Ultimate Linux Mint 17.3 Cinnamon and other flavours
+# Ultimate Linux Mint 17.3 Cinnamon and other flavours and Ubuntu derivatives
 
 
 ![Screenshots](http://i.imgur.com/SXOd0OV.jpg)
@@ -26,10 +26,8 @@
 
 This is my way of working when installing a new operating system.
 
-	1 Kernel, cinnamon and nvidia
-	2 Software installation
-	3 Change settings to my liking
-	4 Fun stuff
+First upgrade kernel, nvidia and cinnamon/nemo.
+If everything is still working we can install the software and start customizing the system.
 
 
 #What can you do if the script does not execute?

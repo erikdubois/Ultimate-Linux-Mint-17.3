@@ -201,8 +201,6 @@ You should arrive at something similar depending on theme and icons choices:
 
 
 
-![Screenshots](http://i.imgur.com/FacEzmD.jpg)
-
 
 
 Then you take the script apart and you write your own code.
@@ -275,12 +273,23 @@ I have gathered a lot of themes, icons and cursors I like and bundled them here.
 
 https://github.com/erikdubois/themes-icons-pack
 
+
 ![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/final_linuxmint171.png)
+
 
 
 ![Screenshots](http://erikdubois.be/wp-content/uploads/2015/02/pimp_linux_mint.jpg)
 
+
+
 ![Screenshots](http://i.imgur.com/9drRjAL.jpg)
+
+
+
+![Screenshots](http://i.imgur.com/FacEzmD.jpg)
+
+
+
 
 Mscore fonts
 ---------------

@@ -330,6 +330,22 @@ And a specific script for samba (sharing of maps on your home network) if you ne
 	- ./install-samba-vx.sh
 
 
+# Shutter
+
+Shutter is a program to make screenshots to post on websites.
+There is also a very handy export function to different image hosting sites like imgur.com
+
+In the program keyboard you can add a custom shortcut to take a picture like 
+
+printscreen or prtsc no many laptops
+This should be the code to take a picture that will be named like this : 
+
+screenshot_25_01_2016_18:32:46.jpg
+
+
+	shutter -f -e -o '~/Pictures/screenshot_%d_%m_%Y_%T.jpg'
+
+
 
 
 #What can you do if the script does not execute?
